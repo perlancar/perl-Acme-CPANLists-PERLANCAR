@@ -75,5 +75,3 @@ L<https://cpanlists.org> (when I finally get around to finishing the project),
 L<lcpan> (when I implement indexing of module source codes), as well as
 L<http://cpanratings.perl.org> (as I'm currently having trouble logging in to
 the site).
-
-=back
