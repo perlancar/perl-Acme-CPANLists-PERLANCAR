@@ -90,6 +90,7 @@ _
                 alternate_module => 'File::Slurper',
             },
         ],
+    },
 );
 
 our @Author_Lists = (
