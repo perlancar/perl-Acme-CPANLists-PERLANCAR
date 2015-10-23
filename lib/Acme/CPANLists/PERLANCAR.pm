@@ -24,7 +24,7 @@ speed improvement if you run it against a local CPAN mirror like MiniCPAN
 though). Wouldn't mind faster version of stuffs :-)
 
 _
-                rating => 5,
+                rating => 10,
             },
         ],
     },
@@ -69,7 +69,7 @@ now `Log::Any::IfLOG` is a simple wrapper that avoids loading `Log::Any` unless
 some environment variable indicates that user wants logging.
 
 _
-                alternate_module => 'Log::Any::IfLOG',
+                alternate_modules => ['Log::Any::IfLOG'],
             },
             {
                 module => 'File::Flock',
@@ -82,12 +82,12 @@ al, all of which seem unnecessary. Nowadays I'm opting to use
 File::Flock::Retry, or just plain `flock()`.
 
 _
-                alternate_module => 'File::Flock::Retry',
+                alternate_modules => ['File::Flock::Retry'],
             },
             {
                 module => 'File::Slurp',
                 summary => 'Buggy',
-                alternate_module => 'File::Slurper',
+                alternate_modules => ['File::Slurper'],
             },
         ],
     },
@@ -125,8 +125,7 @@ our @Author_Lists = (
 
 =head1 DESCRIPTION
 
-This distribution is an experiment for providing data that can be used by
-L<https://cpanlists.org> (when I finally get around to finishing the project),
-L<lcpan> (when I implement indexing of module source codes), as well as
-L<http://cpanratings.perl.org> (as I'm currently having trouble logging in to
-the site).
+
+=head1 SEE ALSO
+
+L<Acme::CPANLists>
