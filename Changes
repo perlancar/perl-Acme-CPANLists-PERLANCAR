@@ -1,5 +1,10 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.05    2015-10-23 (PERLANCAR)
+
+	- Adjust to Acme::CPANLists specification v0.9.0.
+
+
 0.04    2015-10-22 (PERLANCAR)
 
 	- Add module lists: Modules I'm avoiding & Test list.
