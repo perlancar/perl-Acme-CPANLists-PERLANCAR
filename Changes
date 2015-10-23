@@ -1,5 +1,12 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.06    2015-10-23 (PERLANCAR)
+
+	- No functional changes.
+
+	- [dist] Update prereq version to Acme::CPANLists 0.9.0 -> 0.90.1.
+
+
 0.05    2015-10-23 (PERLANCAR)
 
 	- Adjust to Acme::CPANLists specification v0.9.0.
