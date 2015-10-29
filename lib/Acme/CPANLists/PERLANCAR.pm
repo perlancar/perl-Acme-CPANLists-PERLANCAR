@@ -91,6 +91,29 @@ _
             },
         ],
     },
+
+    {
+        summary => 'Ensuring only a single instance of program is running',
+        description => <<'_',
+
+There are a few common techniques to establish this: creating a PID file, and/or
+flock-ing a file (either the program's source code, or said PID file, or some
+other lock file). Note that when your script runs, the standard `DATA`
+filehandle is already open to the program's source code, so you can just use
+that for locking.
+
+Keywords: single process, prevent multiple instances, prevent multiple
+processes.
+
+_
+        entries => [
+            {module=>'Proc::PID::File', rating=>8},
+            {module=>'Proc::Pidfile', rating=>5},
+            {module=>'Proc::Govern', summary => 'Uses Proc::PID::File'},
+            {module=>'IPC::Lockfile', summary => 'Works by locking $0.lock'},
+            {module=>'Sys::RunAlone', summary => 'Works by locking DATA handle'},
+        ],
+    },
 );
 
 our @Author_Lists = (
