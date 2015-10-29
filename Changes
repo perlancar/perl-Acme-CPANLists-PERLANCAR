@@ -1,5 +1,11 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.07    2015-10-29 (PERLANCAR)
+
+	- Add module list: Ensuring only a single instance of program is
+	  running.
+
+
 0.06    2015-10-23 (PERLANCAR)
 
 	- No functional changes.
