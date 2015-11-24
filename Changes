@@ -1,5 +1,10 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.08    2015-11-24 (PERLANCAR)
+
+	- Add module list: Picking random lines from a file.
+
+
 0.07    2015-10-29 (PERLANCAR)
 
 	- Add module list: Ensuring only a single instance of program is
