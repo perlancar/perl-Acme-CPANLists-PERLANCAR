@@ -147,6 +147,24 @@ doesn't have to read the whole file. It might be preferred for very large files.
 
 _
             },
+            {
+                module => 'File::Random::Pick',
+                description => <<'_',
+
+This module is an alternative to `File::Random`. It offers a `random_line()`
+routine that avoids duplication.
+
+_
+            },
+            {
+                module => 'App::PickRandomLines',
+                description => <<'_',
+
+A CLI that allows you to use `File::Random::Pick` or `File::RandomLine` on the
+command-line.
+
+_
+            },
         ],
     },
 );
