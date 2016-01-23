@@ -68,6 +68,11 @@ trying to keep startup overhead under 25-50ms). The alternate module I'm using
 now `Log::Any::IfLOG` is a simple wrapper that avoids loading `Log::Any` unless
 some environment variable indicates that user wants logging.
 
+Update [2016-01-23]: I'm sick of the inconvenience that `Log::Any::IfLOG` is
+causing and planning to replace the `Log::Any` module set with something I write
+myself. The replacement will focus on low startup overhead, ability to do
+runtime level changing, and the equivalent of `Log::Any::App`. Stay tuned.
+
 _
                 alternate_modules => ['Log::Any::IfLOG'],
             },
