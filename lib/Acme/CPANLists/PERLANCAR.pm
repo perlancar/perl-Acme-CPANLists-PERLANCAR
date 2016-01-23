@@ -182,6 +182,9 @@ for various reasons but mostly because they are no longer necessary. I've
 purged/retired more modules than these (mostly failed experiments) but they are
 not worth mentioning here because nobody else seems to have used them.
 
+Note that you can always get these retired modules from BackPAN or GitHub (I
+don't purge most of the repos) if needed.
+
 _
         entries => [
             {
