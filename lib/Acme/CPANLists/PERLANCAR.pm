@@ -252,8 +252,3 @@ our @Author_Lists = (
 # ABSTRACT: PERLANCAR's CPAN lists
 
 =head1 DESCRIPTION
-
-
-=head1 SEE ALSO
-
-L<Acme::CPANLists>
