@@ -4,31 +4,7 @@ package Acme::CPANLists::PERLANCAR;
 # VERSION
 
 our @Module_Lists = (
-    {
-        summary => 'Test list',
-        entries => [
-            {module=>'Foo::Bar', summary=>'bar'},
-            {module=>'Foo::Baz', summary=>'baz'},
-        ],
-    },
-
-    {
-        summary => 'Random module reviews',
-        entries => [
-            {
-                module => 'App::cpanoutdated::coro',
-                description => <<'_',
-
-66% faster than pm:App::cpanoutdated when run against a normal CPAN mirror (no
-speed improvement if you run it against a local CPAN mirror like MiniCPAN
-though). Wouldn't mind faster version of stuffs :-)
-
-_
-                rating => 10,
-            },
-        ],
-    },
-
+    # list: One-letter CPAN modules
     {
         summary => 'One-letter CPAN modules',
         description => <<'_',
@@ -45,6 +21,7 @@ _
         ],
     },
 
+    # list: Modules I'm avoiding
     {
         summary => "Modules I'm avoiding",
         description => <<'_',
@@ -83,11 +60,18 @@ _
                 summary => 'Buggy',
                 alternate_modules => ['File::Slurper'],
             },
+            {
+                module => 'File::Slurp::Tiny',
+                summary => 'Use the newer File::Slurper instead',
+                alternate_modules => ['File::Slurper'],
+            },
         ],
     },
 
+    # list: Ensuring only a single instance of program is running
     {
         summary => 'Ensuring only a single instance of program is running',
+        tags => ['task'],
         description => <<'_',
 
 There are a few common techniques to establish this: creating a PID file, and/or
@@ -109,8 +93,10 @@ _
         ],
     },
 
+    # list: Picking random lines from a file
     {
         summary => 'Picking random lines from a file',
+        tags => ['task'],
         entries => [
             {
                 module=>'File::Random',
@@ -162,6 +148,7 @@ _
         ],
     },
 
+    # list: Retired modules
     {
         summary => 'Retired modules',
         description => <<'_',
@@ -208,33 +195,52 @@ _
             },
         ],
     },
+
+    # list: Assertion
+    {
+        summary => 'Assertion',
+        description => <<'_',
+
+Assertion is a check statement that must evaluate to true or it will abort the
+execution. It is useful during development/debugging:
+
+    assert("there must be >3 arguments", sub { @args > 3 });
+
+In production code, it can be removed entirely so it does not have any impact on
+runtime performance.
+
+In the old days, you only have this alternative to do it in Perl:
+
+    assert(...) if DEBUG;
+
+where `DEBUG` is a constant subroutine, declared using:
+
+    use constant DEBUG => 0;
+
+or:
+
+    sub DEBUG() { 0 }
+
+The perl compiler will optimize away and remove the code entirely when `DEBUG`
+is false. But having to add `if DEBUG` to each assertion is annoying and
+error-prone.
+
+Nowadays, you have several alternatives to have a true, C-like assertions. One
+technique is using `Devel::Declare` (e.g. `PerlX::Assert`). Another technique is
+using `B::CallChecker` (e.g. `Assert::Conditional`).
+
+_
+
+        entries => [
+            {module=>'Assert::Conditional'},
+            {module=>'PerlX::Assert'},
+            {module=>'Devel::Assert'},
+            {module=>'assertions'},
+        ],
+    },
 );
 
 our @Author_Lists = (
-    {
-        summary => 'Test list',
-        entries => [
-            {author=>'BARBIE'},
-            {author=>'NEILB'},
-            {author=>'RJBS'},
-        ],
-    },
-
-    {
-        summary => 'Another test list',
-        entries => [
-            {author=>'BARBIE'},
-            {author=>'MANWAR'},
-            {author=>'SKIM'},
-            {author=>'NEILB'},
-            {author=>'KENTNL'},
-            {author=>'ETHER'},
-            {author=>'CSSON'},
-            {author=>'INGY'},
-            {author=>'IVANWILLS'},
-            {author=>'RENEEB'},
-        ],
-    },
 );
 
 1;
