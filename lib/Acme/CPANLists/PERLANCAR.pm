@@ -235,7 +235,7 @@ _
             {module=>'Assert::Conditional'},
             {module=>'PerlX::Assert'},
             {module=>'Devel::Assert'},
-            {module=>'assertions'},
+            #{module=>'assertions'}, # this module doesn't work now, it uses an experimental feature available on 5.9.x which finally removed before 5.10.
         ],
     },
 );
