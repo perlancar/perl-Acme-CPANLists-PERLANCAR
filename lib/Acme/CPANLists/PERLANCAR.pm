@@ -59,22 +59,11 @@ _
                 summary => 'Startup overhead',
                 description => <<'_',
 
-Since I write a lot of CLI scripts, many of which has self-tab-completion
-features (using `Perinci::CmdLine` framework), I prefer to use modules that have
-startup overhead that is as low as possible. Since 1.0+ release, `Log::Any`'s
-startup overhead increases significantly from < 1ms to about 10ms (this is by
-itself not a significant number but things add up for other modules and I'm
-trying to keep startup overhead under 25-50ms). The alternate module I'm using
-now `Log::Any::IfLOG` is a simple wrapper that avoids loading `Log::Any` unless
-some environment variable indicates that user wants logging.
-
-Update [2016-01-23]: I'm sick of the inconvenience that `Log::Any::IfLOG` is
-causing and planning to replace the `Log::Any` module set with something I write
-myself. The replacement will focus on low startup overhead, ability to do
-runtime level changing, and the equivalent of `Log::Any::App`. Stay tuned.
+After the 1.x version, I no longer prefer `Log::Any` and am developing an
+alternative called `Log::Gurat`.
 
 _
-                alternate_modules => ['Log::Any::IfLOG'],
+                alternate_modules => ['Log::Gurat'],
             },
             {
                 module => 'File::Flock',
