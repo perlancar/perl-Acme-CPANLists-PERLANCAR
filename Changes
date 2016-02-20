@@ -1,5 +1,28 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.10    2016-02-20 (PERLANCAR)
+
+        - Split each list into a separate module (POD) to help 'lcpan
+          related-mods' result.
+
+          When a POD document mentions unrelated modules together (which is when
+          several unrelated lists are put together in a single POD), it gives a
+          false positive for the 'lcpan related-mods' result which thinks that
+          such modules are related. To help 'lcpan related-mods', I now put each
+          list into a separate POD.
+
+        - Add module list: Getting system-wide temporary directory in a portable
+          way.
+
+        - Add module list: Assertion.
+
+        - Mention about BackPAN or GitHub on how to get retired modules.
+
+        [REMOVED]
+
+        - Remove test lists, add module list: Assertion
+
+
 0.09    2016-01-23 (PERLANCAR)
 
 	- Add module list: Retired modules.
