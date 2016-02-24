@@ -47,6 +47,26 @@ _
                 summary => 'Use the newer File::Slurper instead',
                 alternate_modules => ['File::Slurper'],
             },
+            {
+                module => 'Exporter::Lite',
+                summary => 'Unnecessary, use Exporter instead',
+                description => <<'_',
+
+I used to use this module because I didn't know that `Exporter` can also be used
+without subclassing, i.e. instead of:
+
+    use Exporter;
+    our @ISA = qw(Exporter);
+    our @EXPORT = (...);
+
+you can also use it like this:
+
+    use Exporter qw(import);
+    our @EXPORT = (...);
+
+_
+                alternate_modules => ['Exporter'],
+            },
         ],
     },
 );
