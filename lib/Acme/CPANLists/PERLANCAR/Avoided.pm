@@ -9,7 +9,12 @@ our @Module_Lists = (
         description => <<'_',
 
 This is a list of modules I'm currently avoiding to use in my code, for some
-reason.
+reason. Most of the modules wered used in my code in the past.
+
+Using a `Dist::Zilla` plugin `Dist::Zilla::Plugin::Acme::CPANLists::Blacklist`,
+you can make sure that during building, your distribution does not specify a
+prerequisite to any of the modules listed here. (You should make your own
+blacklist though).
 
 _
         entries => [
