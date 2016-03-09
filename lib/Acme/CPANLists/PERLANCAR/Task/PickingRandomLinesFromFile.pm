@@ -28,12 +28,13 @@ _
                 description => <<'_',
 
 This module gives you a choice of two algorithms. The first is similar to
-`File::Random`, giving each line of the file equal weight. The second algorithm
-is more interesting: it works by random seeking the file, discarding the line
-fragment (searching forward for the next newline character), read the next line,
-then repeat the process until the desired number of lines is reached. This means
-one doesn't have to read the whole file. It might be preferred for very large
-files.
+`File::Random` (the scan method), giving each line of the file equal weight. The
+second algorithm is more interesting: it works by random seeking the file,
+discarding the line fragment (a.k.a. searching forward for the next newline
+character), reading the next line, then repeating the process until the desired
+number of lines is reached. This means one doesn't have to read the whole file
+and the picking process is much faster than the scan method. It might be
+preferred for very large files.
 
 Note that due to the nature of the algorithm, lines are weighted by the number
 of characters. In other words, lines that have long lines immediately preceding
