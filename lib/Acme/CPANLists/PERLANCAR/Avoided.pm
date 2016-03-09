@@ -67,6 +67,30 @@ you can also use it like this:
 _
                 alternate_modules => ['Exporter'],
             },
+            {
+                module => 'JSON',
+                summary => 'Somewhat broken',
+                description => <<'_',
+
+JSON.pm is a discouraged module now, due to its somewhat broken backend handling
+and lack of support for `Cpanel::JSON::XS`. consider switching to JSON::MaybeXS
+or perhaps just JSON::PP.
+
+_
+                alternate_modules => ['JSON::MaybeXS', 'JSON::PP', 'Cpanel::JSON::XS'],
+            },
+            {
+                module => 'JSON::XS',
+                summary => '',
+                description => <<'_',
+
+`Cpanel::JSON::XS` is the fork of `JSON::XS` that fixes some bugs and adds some
+features, mainly so it's more compatible with `JSON::PP`. See the documentation
+of `Cpanel::JSON::XS` for more details on those.
+
+_
+                alternate_modules => ['Cpanel::JSON::XS'],
+            },
         ],
     },
 );
