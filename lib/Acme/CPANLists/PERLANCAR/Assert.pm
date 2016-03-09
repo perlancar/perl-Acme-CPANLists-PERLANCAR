@@ -8,13 +8,13 @@ our @Module_Lists = (
         summary => 'Assertion',
         description => <<'_',
 
-Assertion is a check statement that must evaluate to true or it will abort the
-execution. It is useful during development/debugging:
+Assertion is a check statement that must evaluate to true or it will abort
+program's execution. It is useful during development/debugging:
 
     assert("there must be >3 arguments", sub { @args > 3 });
 
-In production code, it can be removed entirely so it does not have any impact on
-runtime performance.
+In production code, compilers ideally do not generate code for assertion
+statements so they do not have any impact on runtime performance.
 
 In the old days, you only have this alternative to do it in Perl:
 
