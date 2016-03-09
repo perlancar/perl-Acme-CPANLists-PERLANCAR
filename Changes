@@ -1,5 +1,10 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.12    2016-03-09 (PERLANCAR)
+
+	- Add JSON and JSON::XS to list of modules to avoid.
+
+
 0.11    2016-02-25 (PERLANCAR)
 
 	- Add Exporter::Lite to list of modules to avoid.
