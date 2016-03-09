@@ -1,5 +1,13 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.13    2016-03-09 (PERLANCAR)
+
+	- Wording/grammar.
+
+	- [Bugfix] Fix wrong file name for
+	  ::Task::PickingRandomLinesFromFile.
+
+
 0.12    2016-03-09 (PERLANCAR)
 
 	- Add JSON and JSON::XS to list of modules to avoid.
