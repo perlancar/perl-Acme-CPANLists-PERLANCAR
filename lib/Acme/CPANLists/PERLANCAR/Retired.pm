@@ -51,6 +51,16 @@ issues and later wrote a clean-slate attempt `Unix::Passwd::File`.
 _
                 alternate_modules => ['Unix::Passwd::File'],
             },
+            {
+                module => 'Text::ANSI::Util',
+                description => <<'_',
+
+Split to `Text::ANSI::NWUtil` (for routines that do not support Unicode wide
+text) and `Text::ANSI::WideUtil` (for routines that do).
+
+_
+                alternate_modules => ['Text::ANSI::NWUtil', 'Text::ANSI::Util'],
+            },
         ],
     },
 );
