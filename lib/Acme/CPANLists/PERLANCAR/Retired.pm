@@ -33,6 +33,9 @@ _
                 module => 'Carp::Always::Dump',
                 description => <<'_',
 
+This module is like `Carp::Always`, but dumps complex arguments instead of just
+printing `ARRAY(0x22f8160)` or something like that.
+
 Superseded by `Devel::Confess`, which can do color (`Carp::Always::Color`),
 dumps (`Carp::Always::Dump`), as well as a few other tricks, all in a single
 package.
