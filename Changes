@@ -1,5 +1,15 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.14    2016-03-16 (PERLANCAR)
+
+	- Retired: Mention Carp::Always to boost its 'lcpan related-mods
+          Carp::Always' ranking.
+
+	- Avoided: Add more note about Exporter::Lite.
+
+	- Add module lists: MagicVariableTechniques, Unbless, Weird.
+
+
 0.13    2016-03-09 (PERLANCAR)
 
 	- Wording/grammar.
