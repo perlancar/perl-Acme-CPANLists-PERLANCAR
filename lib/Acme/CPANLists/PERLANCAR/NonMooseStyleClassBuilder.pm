@@ -27,7 +27,7 @@ _
             {module => 'Object::New',
              summary=>'Only provides a new() constructor method'},
             {module => 'Class::Accessor',
-             summary => 'Also supports Moose-style "has" predicate'},
+             summary => 'Also supports Moose-style "has"'},
             {module => 'Class::XSAccessor',
              summary=>'Fast version of Class::Accessor, used by Moo'},
         ],
