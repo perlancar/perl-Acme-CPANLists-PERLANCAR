@@ -1,5 +1,11 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.15    2016-03-26 (PERLANCAR)
+
+        - Add module lists: MooseStyleClassBuilder, NonMooseStyleClassBuilder,
+          ArrayClassBuilder.
+
+
 0.14    2016-03-16 (PERLANCAR)
 
 	- Retired: Mention Carp::Always to boost its 'lcpan related-mods
