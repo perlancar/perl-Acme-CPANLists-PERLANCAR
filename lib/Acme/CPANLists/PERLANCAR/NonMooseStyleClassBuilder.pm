@@ -19,6 +19,8 @@ _
              summary=>'Part of the Class::Meta framework'},
             {module => 'Class::Struct'},
             {module => 'Class::Builder'},
+            {module => 'Class::GenSource',
+             summary=>'This is more like code generator, it generates Perl code source for the entire class definition, not just accessors'},
             {module => 'Object::Declare'},
             {module => 'Object::Tiny'},
             {module => 'Class::Tiny'},
