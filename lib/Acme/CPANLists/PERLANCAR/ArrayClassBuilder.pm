@@ -20,8 +20,9 @@ hash.
 
 _
         entries => [
+            {module => 'Class::Accessor::Array'},
+            {module => 'Class::Accessor::Array::Glob'},
             {module => 'Class::XSAccessor::Array'},
-            {module => 'Class::Build::Array::Glob'},
             {module => 'Class::ArrayObjects'},
             {module => 'Object::ArrayType::New',
              summary => 'Only supports defining constants for array indexes'},
