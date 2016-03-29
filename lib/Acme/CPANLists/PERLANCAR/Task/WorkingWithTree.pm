@@ -18,8 +18,8 @@ Memory-efficient tree nodes in Perl: `Tree::Node`.
 
 **Creating**
 
-`Tree::FromStruct`, `Tree::FromText`, `Tree::FromTextLines`, `Tree::Create`,
-`Tree::Create::Size`, `Tree::FromFS`.
+`Tree::FromStruct`, `Tree::FromText`, `Tree::FromTextLines`,
+`Tree::Create::Callback`, `Tree::Create::Size`, `Tree::FromFS`.
 
 `Data::Random::Tree`.
 
