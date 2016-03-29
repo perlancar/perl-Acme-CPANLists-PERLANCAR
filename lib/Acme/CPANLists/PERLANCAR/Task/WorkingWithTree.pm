@@ -4,7 +4,7 @@ package Acme::CPANLists::PERLANCAR::Task::WorkingWithTree;
 # VERSION
 
 my $text = <<'_';
-# Basics
+**Basics**
 
 Perl classes to represent tree (node) structure: `Tree::Object` and
 `Tree::ObjectXS` (comes with several varieties). They provide methods like
@@ -16,7 +16,7 @@ Perl modules to manipulate tree: `Data::Tree`, `Tree::Simple`.
 Memory-efficient tree nodes in Perl: `Tree::Node`.
 
 
-# Creating
+**Creating**
 
 `Tree::FromStruct`, `Tree::FromText`, `Tree::FromTextLines`, `Tree::Create`,
 `Tree::Create::Size`, `Tree::FromFS`.
@@ -24,24 +24,24 @@ Memory-efficient tree nodes in Perl: `Tree::Node`.
 `Data::Random::Tree`.
 
 
-# Visualizing as text
+**Visualizing as text**
 
 `Tree::ToText`, `Tree::ToTextLines`.
 
 
-# Visualizing as graphic
+**Visualizing as graphic**
 
 TODO
 
 
-# Other modules
+**Other modules**
 
 `Tree::ToFS`.
 
 Special kinds of trees: TODO.
 
 
-# Roles
+**Roles**
 
 `Role::TinyCommons::Tree`.
 
