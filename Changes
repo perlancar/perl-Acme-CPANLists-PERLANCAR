@@ -1,5 +1,14 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.16    2016-03-29 (PERLANCAR)
+
+	- Add module list: Task::WorkingWithTree.
+
+	- Remove mention of Class::Build::Array::Glob (the use of
+	  Hook::AfterRuntime makes it problematic to load in some cases),
+	  mention Class::Accessor::Array and Class::Accessor::Array::Glob.
+
+
 0.15    2016-03-26 (PERLANCAR)
 
         - Add module lists: MooseStyleClassBuilder, NonMooseStyleClassBuilder,
