@@ -54,6 +54,15 @@ issues and later wrote a clean-slate attempt `Unix::Passwd::File`.
 _
                 alternate_modules => ['Unix::Passwd::File'],
             },
+            {
+                module => 'Module::List::WithPath',
+                description => <<'_',
+
+Superseded by `PERLANCAR::Module::List`.
+
+_
+                alternate_modules => ['PERLANCAR::Module::List'],
+            },
         ],
     },
 );
