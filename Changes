@@ -1,5 +1,16 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.17    2016-07-24 (PERLANCAR)
+
+        - Add module lists: CustomCPAN & LocalCPANMirror.
+
+        - Add module to Retired list: Module::List::WithPath.
+
+        - Undeprecate Tree::Create::Size for now.
+
+        - Rename module Tree::Create to Tree::Create::Callback.
+
+
 0.16    2016-03-29 (PERLANCAR)
 
 	- Add module list: Task::WorkingWithTree.

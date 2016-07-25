@@ -69,6 +69,6 @@ _
 1;
 # ABSTRACT:
 
-=head1 SEE ALSO
+=head1 append:SEE ALSO
 
-L<Acme::CPANLists::PERLANCAR::CustomCPANMirror>
+L<Acme::CPANLists::PERLANCAR::LocalCPANMirror>
