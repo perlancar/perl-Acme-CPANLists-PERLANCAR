@@ -20,7 +20,7 @@ _
 
 This module lets you create a so-called "mini mirror", which only contains the
 newest release for each distribution (where CPAN might also contains previous
-versions of a distribution as long as the CPAN author does not cleanup his
+versions of a distribution as long as the CPAN author does not clean up his
 previous releases). This produces a significantly smaller CPAN mirror which you
 can use on your PC/laptop for offline development use.
 
@@ -31,8 +31,8 @@ _
                 description => <<'_',
 
 This application not only lets you download a CPAN mini mirror (using
-`CPAN::Mini` actually) but also indexes the package list and distribution
-metadata into a SQLite database so you can perform various queries, like list of
+`CPAN::Mini` actually) but also index the package list and distribution metadata
+into a SQLite database so you can perform various queries, like list of
 modules/distributions/scripts of a CPAN author, or related modules using
 cross-mention information on modules' PODs, or various rankings.
 
