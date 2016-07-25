@@ -35,11 +35,29 @@ your modules one at a time.
 _
             },
             {
+                module=>'WorePAN',
+                description => <<'_',
+
+A flavor of OrePAN that works under Windows.
+
+_
+            },
+            {
                 module=>'OrePAN2',
                 description => <<'_',
 
 The next generation of OrePAN, although I personally still use OrePAN (version
 1).
+
+_
+            },
+            {
+                module=>'CPAN::Mirror::Tiny',
+                description => <<'_',
+
+Like OrePAN/OrePAN2/CPAN::Mini::Inject, but the goal is not to depend on XS
+modules (thus, the use of HTTP::Tinyish which uses curl/wget to download https
+pages instead of LWP).
 
 _
             },
