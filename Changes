@@ -1,5 +1,18 @@
 Revision history for Acme-CPANLists-PERLANCAR
 
+0.19    2016-12-28 (PERLANCAR)
+
+	- fmt: Use <pm:...> links in Markdown text to link the modules.
+
+	- [dist] Fix expressing follow-spec prereq relationship with
+	  x_spec.
+
+	- Add module list: PERLANCAR::MyGetoptLongExperiment.
+
+	- Add module list:
+	  PERLANCAR::Task::CheckingModuleInstalledLoadable.
+
+
 0.18    2016-07-26 (PERLANCAR)
 
 	- CustomCPAN: mention WorePAN and CPAN::Mirror::Tiny.
