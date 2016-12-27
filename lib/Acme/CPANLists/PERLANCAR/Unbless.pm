@@ -10,11 +10,11 @@ our @Module_Lists = (
 
 Blessing a reference is easy with `bless()` but surprisingly (or
 unsurprisingly?) unblessing a blessed reference is not as simple. Currently you
-can use the `unbless()` function from `Data::Structure::Util` or `damn()` from
-`Acme::Damn` (which is a slimmer module if you just need unblessing feature).
-Both are XS modules. If you need a pure-Perl solution, currently you're out of
-luck. `Function::Fallback::CoreOrPP` provides `unbless()` where the fallback
-option is shallow copying.
+can use the `unbless()` function from <pm:Data::Structure::Util> or `damn()`
+from <pm:Acme::Damn> (which is a slimmer module if you just need unblessing
+feature). Both are XS modules. If you need a pure-Perl solution, currently
+you're out of luck. <pm:Function::Fallback::CoreOrPP> provides `unbless()` where
+the fallback option is shallow copying.
 
 _
         entries => [

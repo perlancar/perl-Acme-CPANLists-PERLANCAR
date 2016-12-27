@@ -8,7 +8,7 @@ our @Module_Lists = (
         summary => 'My experiments writing Getopt::Long replacements/alternatives',
         description => <<'_',
 
-Most of these modules provide a Getopt::Long-compatible interface, but they
+Most of these modules provide a <pm:Getopt::Long>-compatible interface, but they
 differ in some aspect: either they offer more features (or less).
 
 _

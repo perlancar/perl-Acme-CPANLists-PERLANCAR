@@ -31,8 +31,8 @@ _
                 description => <<'_',
 
 This application not only lets you download a CPAN mini mirror (using
-`CPAN::Mini` actually) but also index the package list and distribution metadata
-into a SQLite database so you can perform various queries, like list of
+<pm:CPAN::Mini> actually) but also index the package list and distribution
+metadata into a SQLite database so you can perform various queries, like list of
 modules/distributions/scripts of a CPAN author, or related modules using
 cross-mention information on modules' PODs, or various rankings.
 

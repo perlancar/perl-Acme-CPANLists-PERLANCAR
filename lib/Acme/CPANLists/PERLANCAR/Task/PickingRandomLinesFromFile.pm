@@ -28,8 +28,8 @@ _
                 description => <<'_',
 
 This module gives you a choice of two algorithms. The first is similar to
-`File::Random` (the scan method), giving each line of the file equal weight. The
-second algorithm is more interesting: it works by random seeking the file,
+<pm:File::Random> (the scan method), giving each line of the file equal weight.
+The second algorithm is more interesting: it works by random seeking the file,
 discarding the line fragment (a.k.a. searching forward for the next newline
 character), reading the next line, then repeating the process until the desired
 number of lines is reached. This means one doesn't have to read the whole file
@@ -48,7 +48,7 @@ _
                 module => 'File::Random::Pick',
                 description => <<'_',
 
-This module is an alternative to `File::Random`. It offers a `random_line()`
+This module is an alternative to <pm:File::Random>. It offers a `random_line()`
 routine that avoids duplication.
 
 _
@@ -57,8 +57,8 @@ _
                 module => 'App::PickRandomLines',
                 description => <<'_',
 
-A CLI that allows you to use `File::Random::Pick` or `File::RandomLine` on the
-command-line.
+A CLI that allows you to use <pm:File::Random::Pick> or <pm:File::RandomLine> on
+the command-line.
 
 _
             },

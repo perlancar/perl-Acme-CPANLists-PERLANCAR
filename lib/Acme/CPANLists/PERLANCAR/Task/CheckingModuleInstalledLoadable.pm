@@ -20,13 +20,13 @@ you can just do something like:
         }
     }
 
-Or you can use something like `Module::Path` or `Module::Path::More` which does
-similar to the above.
+Or you can use something like <pm:Module::Path> or <pm:Module::Path::More> which
+does similar to the above.
 
 A module can also be loaded from a require hook in ~@INC~ (like in the case of
 fatpacked or datapacked script) and the above methods does not handle it.
-Instead, you'll need to use `Module::Load::Conditional`'s `check_install` or
-`Module::Installed::Tiny`'s `module_installed`:
+Instead, you'll need to use <pm:Module::Load::Conditional>'s `check_install` or
+<pm:Module::Installed::Tiny>'s `module_installed`:
 
     use Module::Load::Conditional qw(check_install);
     if (check_install(module => "Foo::Bar")) {

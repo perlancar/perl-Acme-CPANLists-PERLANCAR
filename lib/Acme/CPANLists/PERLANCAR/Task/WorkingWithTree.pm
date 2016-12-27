@@ -6,28 +6,28 @@ package Acme::CPANLists::PERLANCAR::Task::WorkingWithTree;
 my $text = <<'_';
 **Basics**
 
-Perl classes to represent tree (node) structure: `Tree::Object` and
-`Tree::ObjectXS` (comes with several varieties). They provide methods like
+Perl classes to represent tree (node) structure: <pm:Tree::Object> and
+<pm:Tree::ObjectXS> (comes with several varieties). They provide methods like
 walking a tree, checking whether a node is the first child, getting sibling
 nodes, and so on.
 
-Perl modules to manipulate tree: `Data::Tree`, `Tree::Simple`.
+Perl modules to manipulate tree: <pm:Data::Tree>, <pm:Tree::Simple>.
 
-Memory-efficient tree nodes in Perl: `Tree::Node`.
+Memory-efficient tree nodes in Perl: <pm:Tree::Node>.
 
 
 **Creating**
 
-`Tree::FromStruct`, `Tree::FromText`, `Tree::FromTextLines`,
-`Tree::Create::Callback`, `Tree::Create::Callback::ChildrenPerLevel`,
-`Tree::Create::Size`, `Tree::FromFS`.
+<pm:Tree::FromStruct>, <pm:Tree::FromText>, <pm:Tree::FromTextLines>,
+<pm:Tree::Create::Callback>, <pm:Tree::Create::Callback::ChildrenPerLevel>,
+<pm:Tree::Create::Size>, <pm:Tree::FromFS>.
 
-`Data::Random::Tree`.
+<pm:Data::Random::Tree>.
 
 
 **Visualizing as text**
 
-`Tree::ToText`, `Tree::ToTextLines`.
+<pm:Tree::ToText>, <pm:Tree::ToTextLines>.
 
 
 **Visualizing as graphic**
@@ -37,14 +37,14 @@ TODO
 
 **Other modules**
 
-`Tree::ToFS`.
+<pm:Tree::ToFS>.
 
 Special kinds of trees: TODO.
 
 
 **Roles**
 
-`Role::TinyCommons::Tree`.
+<pm:Role::TinyCommons::Tree>.
 
 _
 

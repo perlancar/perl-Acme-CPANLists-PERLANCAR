@@ -33,8 +33,8 @@ is false. But having to add `if DEBUG` to each assertion is annoying and
 error-prone.
 
 Nowadays, you have several alternatives to have a true, C-like assertions. One
-technique is using `Devel::Declare` (e.g. `PerlX::Assert`). Another technique is
-using `B::CallChecker` (e.g. `Assert::Conditional`).
+technique is using <pm:Devel::Declare> (e.g. <pm:PerlX::Assert>). Another technique is
+using <pm:B::CallChecker> (e.g. <pm:Assert::Conditional>).
 
 _
 

@@ -44,7 +44,7 @@ _
                 module => 'Umask::Local',
                 description => <<'_',
 
-Like `File::umask`, but instead of using a tied variable, uses an object with
+Like <pm:File::umask>, but instead of using a tied variable, uses an object with
 its `DESTROY` method restoring original umask. I find the interface a bit more
 awkward.
 
@@ -64,7 +64,7 @@ _
                 module => 'Locale::Scope',
                 description => <<'_',
 
-Like `Locale::Tie`, but instead of using a tied variable, uses an object with
+Like <pm:Locale::Tie>, but instead of using a tied variable, uses an object with
 its `DESTROY` method restoring original settings.
 
 _

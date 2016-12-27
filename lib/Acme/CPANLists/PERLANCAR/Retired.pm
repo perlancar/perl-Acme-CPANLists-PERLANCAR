@@ -24,7 +24,7 @@ _
                 module => 'Data::Schema',
                 description => <<'_',
 
-I wrote `Data::Sah` which superseded this module since 2012.
+I wrote <pm:Data::Sah> which superseded this module since 2012.
 
 _
                 alternate_modules => ['Data::Sah'],
@@ -33,12 +33,12 @@ _
                 module => 'Carp::Always::Dump',
                 description => <<'_',
 
-This module is like `Carp::Always`, but dumps complex arguments instead of just
-printing `ARRAY(0x22f8160)` or something like that.
+This module is like <pm:Carp::Always>, but dumps complex arguments instead of
+just printing `ARRAY(0x22f8160)` or something like that.
 
-Superseded by `Devel::Confess`, which can do color (`Carp::Always::Color`),
-dumps (`Carp::Always::Dump`), as well as a few other tricks, all in a single
-package.
+Superseded by <pm:Devel::Confess>, which can do color
+(<pm:Carp::Always::Color>), dumps (<pm:Carp::Always::Dump>), as well as a few
+other tricks, all in a single package.
 
 _
                 alternate_modules => ['Devel::Confess'],
@@ -47,9 +47,10 @@ _
                 module => 'Passwd::Unix::Alt',
                 description => <<'_',
 
-I first wrote `Passwd::Unix::Alt` (a fork of `Passwd::Unix`) to support shadow
-passwd/group files, but later abandoned this fork due to a couple of fundamental
-issues and later wrote a clean-slate attempt `Unix::Passwd::File`.
+I first wrote <pm:Passwd::Unix::Alt> (a fork of <pm:Passwd::Unix>) to support
+shadow passwd/group files, but later abandoned this fork due to a couple of
+fundamental issues and later wrote a clean-slate attempt
+<pm:Unix::Passwd::File>.
 
 _
                 alternate_modules => ['Unix::Passwd::File'],
@@ -58,7 +59,7 @@ _
                 module => 'Module::List::WithPath',
                 description => <<'_',
 
-Superseded by `PERLANCAR::Module::List`.
+Superseded by <pm:PERLANCAR::Module::List>.
 
 _
                 alternate_modules => ['PERLANCAR::Module::List'],
