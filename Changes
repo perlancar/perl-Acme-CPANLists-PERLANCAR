@@ -1,5 +1,3 @@
-Revision history for Acme-CPANLists-PERLANCAR
-
 0.19    2016-12-28 (PERLANCAR)
 
 	- fmt: Use <pm:...> links in Markdown text to link the modules.
