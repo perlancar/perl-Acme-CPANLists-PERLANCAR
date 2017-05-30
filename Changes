@@ -1,3 +1,8 @@
+0.20    2017-05-30 (PERLANCAR)
+
+	- Add module list: PERLANCAR::UpsideDownTextWithUnicode.
+
+
 0.19    2016-12-28 (PERLANCAR)
 
 	- fmt: Use <pm:...> links in Markdown text to link the modules.
