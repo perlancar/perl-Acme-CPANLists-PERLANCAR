@@ -30,6 +30,11 @@ _
                 alternate_modules => ['Log::ger'],
             },
             {
+                module => 'Log::Any::IfLOG',
+                summary => 'Retired workaround',
+                alternate_modules => ['Log::ger'],
+            },
+            {
                 module => 'File::Flock',
                 summary => 'Too many deps',
                 description => <<'_',
