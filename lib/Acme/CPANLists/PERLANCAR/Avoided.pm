@@ -23,11 +23,11 @@ _
                 summary => 'Startup overhead',
                 description => <<'_',
 
-After the 1.x version, I no longer prefer <pm:Log::Any> and am developing an
-alternative called <pm:Log::Gurat>.
+After the 1.x version, I no longer prefer <pm:Log::Any> and have developed an
+alternative called <pm:Log::ger>.
 
 _
-                alternate_modules => ['Log::Gurat'],
+                alternate_modules => ['Log::ger'],
             },
             {
                 module => 'File::Flock',
