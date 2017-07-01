@@ -105,6 +105,22 @@ documentation of <pm:Cpanel::JSON::XS> for more details on those.
 _
                 alternate_modules => ['Cpanel::JSON::XS'],
             },
+            {
+                module => 'Module::Path',
+                summary => '',
+                description => <<'_',
+
+It's a nice little concept and module, and often useful. But the decision like
+defaulting to doing abs_path()
+(https://rt.cpan.org/Public/Bug/Display.html?id=100979), which complicates the
+module, makes its behavior different than Perl's require(), as well as opens the
+can of worms of ugly filesytem details, has prompted me to release an
+alternative. Module::Path::More also has the options to find .pod and/or .pmc
+file, and find all matches instead of the first.
+
+_
+                alternate_modules => ['Module::Path::More'],
+            },
         ],
     },
 );
