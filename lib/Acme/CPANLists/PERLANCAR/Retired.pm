@@ -64,6 +64,15 @@ Superseded by <pm:PERLANCAR::Module::List>.
 _
                 alternate_modules => ['PERLANCAR::Module::List'],
             },
+            {
+                module => 'App::CreateSparseFile',
+                description => <<'_',
+
+I didn't know about the `fallocate` command.
+
+_
+                'x.date' => '2017-07-18',
+            },
         ],
     },
 );
