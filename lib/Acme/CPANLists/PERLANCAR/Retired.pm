@@ -73,6 +73,15 @@ I didn't know about the `fallocate` command.
 _
                 'x.date' => '2017-07-18',
             },
+            {
+                module => 'Log::Any::App',
+                description => <<'_',
+
+I've written <pm:Log::ger::App> to be its successor.
+
+_
+                'x.date' => '2017-09-08',
+            },
         ],
     },
 );

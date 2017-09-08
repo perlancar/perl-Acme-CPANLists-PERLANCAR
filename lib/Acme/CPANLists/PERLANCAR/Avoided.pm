@@ -29,8 +29,8 @@ alternative called <pm:Log::ger>.
 _
                 alternate_modules => ['Log::ger'],
             },
-            # 2017-09-08
             {
+                'x.date' => '2017-09-08',
                 module => 'List::MoreUtils',
                 summary => 'License confusion and ',
                 description => <<'_',
