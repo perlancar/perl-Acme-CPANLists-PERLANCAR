@@ -29,6 +29,20 @@ alternative called <pm:Log::ger>.
 _
                 alternate_modules => ['Log::ger'],
             },
+            # 2017-09-08
+            {
+                module => 'List::MoreUtils',
+                summary => 'License confusion and ',
+                description => <<'_',
+
+For more information, see https://www.reddit.com/r/perl/comments/6ymdez/what_are_the_background_details_pertaining_to_the/.
+
+Recent versions of <pm:List::Util> have implemented many functions from
+<pm:List::MoreUtils>.
+
+_
+                alternate_modules => ['List::Util', 'List::SomeUtils', 'List::AllUtils'],
+            },
             {
                 module => 'Log::Any::IfLOG',
                 summary => 'Retired workaround',
